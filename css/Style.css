@@ -83,6 +83,7 @@ body{
     }
 
     div.Privacy{ 
+        width: 10%;
         background-color: white;
 	    position: absolute;
         display: block;
@@ -175,7 +176,7 @@ body{
         padding-right: 30px;
         font-size: x-large;
         font-weight: bold;
-        text-decoration-color: darkkhaki;
+        text-decoration: darkkhaki;
     }
 
 
