@@ -1,0 +1,97 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+div.privacy_bottom{
+    margin-top: -20px;
+    line-height: 30px;
+}
+div.privacy_bottom > a{
+    color: black;
+    font-weight: bold; 
+}
+div.privacy_bottom > a:hover{
+    text-decoration: underline;
+}
+.PrivacyForm {
+    position:absolute;
+    width:600px;
+    line-height: 40px;
+    height:600px;
+    text-align:center;
+    margin-top: 650px;
+    left:700px;
+    padding-bottom: 100px;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border: solid 2px black;
+    background: white;
+    vertical-align: middle;
+}
+.PrivacyForm > div.GoMain > a{
+    color: black;
+}
+
+.Privacy_Form > div.PrivacyPage_bottom{
+    display: inline-block;
+    width: 105px; 
+    height: 40px;
+    background: white;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+.Privacy_Form > div.PrivacyPage_bottom > a:hover{
+    color: black;
+}
+
+.PrivacyForm h2{
+    margin: 5px;
+    padding: 5px;
+    font-size: xx-large;
+}
+.textform {
+    border-bottom: 2px solid black;
+    margin: 30px;
+    padding: 10px 10px;
+}
+.privacy{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 25px;
+    background: none;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.Privacy_btn-area {
+    margin: 30px;
+    margin: 5px;
+    padding: 5px; 
+}
+
+.Privacy_btn{
+    position: relative;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 40px;
+    background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
+    background-position: left;
+    background-size: 200%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    margin-left: 300px;
+}

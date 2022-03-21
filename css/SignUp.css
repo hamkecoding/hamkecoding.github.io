@@ -1,0 +1,10 @@
+body{
+    background: url(../img/animation2.png);
+}
+div.PrivacyCheck > li{
+    top: -10px;
+   list-style: none;
+}
+div.PrivacyCheck > li > ul{
+    
+}
